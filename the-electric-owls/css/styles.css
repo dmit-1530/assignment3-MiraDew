@@ -158,6 +158,17 @@ footer {
 
 /* ***************** Add media query for the 588px screen ***************** */
 
+@media screen (min-width: 588px) {
+  .container {
+    width: 100%;
+    border: 0;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
 /* ***************** footer ***************** */
 
 /* ***************** footer ***************** */
