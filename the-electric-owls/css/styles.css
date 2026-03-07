@@ -183,6 +183,13 @@ footer {
 
 .container form {
     display: flex;
+    width: 100%;
+}
+
+form> .btn {
+    width: 50%;
+
+    height: 3.4375rem;
 }
 
 
@@ -191,4 +198,33 @@ footer {
 
 /* ***************** footer ***************** */
 
+@media (min-width: 61.25rem) {
+    header .container {
+        display: flex;
+        
+    }
+
+    section {
+    display: inline-block;
+    width: 45%; 
+    vertical-align: top; 
+    }
+    
+    .btn-center {
+        display: inline;
+    }
+
+    .container form {
+        display: flex;
+        width: 50%;
+    }
+}
+
 /* ***************** footer ***************** */
+
+@media (min-width: 120rem) {
+    header .container {
+        display: flex;
+        
+    }
+}
