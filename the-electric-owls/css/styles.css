@@ -223,8 +223,33 @@ form> .btn {
 /* ***************** footer ***************** */
 
 @media (min-width: 120rem) {
-    header .container {
-        display: flex;
+    .container {
+        max-width: 107.5rem;
+        margin: 0 auto;
+        padding: 0;
         
+    }
+    
+    .navbar {
+        justify-content: flex-end;
+        padding: 0;
+    }
+    section {
+    
+    width: 45%; 
+    vertical-align: top; 
+    }
+    
+    .btn-center {
+        display: inline;
+    }
+
+    .container form {
+        display: flex;
+        width: 50%;
+    }
+
+    .container {
+        top: 0;
     }
 }
